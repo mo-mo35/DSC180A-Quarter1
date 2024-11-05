@@ -3,6 +3,7 @@ Our repo contains three models: one a sample model produced by ChatGPT, another 
 The software dependencies required to run this code are numpy and matplotlib. To reproduce our results, all one needs to do is run the Jupyter Notebook, which is named baseline_model_notebook.ipynb. 
 
 References:
+
 https://gregorygundersen.com/blog/2018/08/08/factor-analysis/#ghahramani1996algorithm
 Ghahramani, Z., & Hinton, G. E. (1996). The EM algorithm for mixtures of factor analyzers. Technical Report CRG-TR-96-1, University of Toronto.
 https://github.com/je-suis-tm/machine-learning/blob/master/factor%20analysis.ipynb
