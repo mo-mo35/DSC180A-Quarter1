@@ -3,6 +3,6 @@ The software dependencies required to run this code are numpy and matplotlib. To
 
 References:
 
-https://gregorygundersen.com/blog/2018/08/08/factor-analysis/#ghahramani1996algorithm
-Ghahramani, Z., & Hinton, G. E. (1996). The EM algorithm for mixtures of factor analyzers. Technical Report CRG-TR-96-1, University of Toronto.
-https://github.com/je-suis-tm/machine-learning/blob/master/factor%20analysis.ipynb
+- https://gregorygundersen.com/blog/2018/08/08/factor-analysis/#ghahramani1996algorithm
+- Ghahramani, Z., & Hinton, G. E. (1996). The EM algorithm for mixtures of factor analyzers. Technical Report CRG-TR-96-1, University of Toronto.
+- https://github.com/je-suis-tm/machine-learning/blob/master/factor%20analysis.ipynb
