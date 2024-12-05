@@ -1,8 +1,12 @@
-Our repo contains three models: one a sample model produced by ChatGPT, another a sample model from another source, and the other a model we wish to create on our own using the other as a guide. Our code involves producing synthetic data based on a factor analysis model, which includes randomly generated observed data, latent factors, noise, and the loadings matrix. It then runs the Expectation-Maximization algorithm to iteratively update estimates for the true loadings matrix and noise. Lastly, our code shows the difference between our estimated loadings matrix and the true loadings matrix, and we included a scatter plot of our synthetic data. Since we are making our own data rather than using a pre-existing dataset, there is no data that is needed to be accessed or stored. Our model was beneficial in helping us learn more about how latent parameters affect the data being generated as we were able to alter the variables in our model and observe the effect it had on the generating process.
-The software dependencies required to run this code are numpy and matplotlib. To reproduce our results, all one needs to do is run the Jupyter Notebook, which is named baseline_model_notebook.ipynb. 
+Our repo contains 4 notebooks, 1 contains the generation of spike trains under main and the remaining 3 are for EDA of the IBL data we plan on using in the future, a Factor Analysis model, and the EM algorithm. Since we gathered the IBL data using the ONE api there is no need to download data locally before running the code.
 
-References:
+To run the project simply run the following command "pip install -r requirements.txt" from the root directory of the project and then run all cells of the notebook. 
 
-- https://gregorygundersen.com/blog/2018/08/08/factor-analysis/#ghahramani1996algorithm
-- Ghahramani, Z., & Hinton, G. E. (1996). The EM algorithm for mixtures of factor analyzers. Technical Report CRG-TR-96-1, University of Toronto.
-- https://github.com/je-suis-tm/machine-learning/blob/master/factor%20analysis.ipynb
+References
+Alessio P. Buccino, et al. (2022). Progress in Biomed. Eng., 4(022005). https://iopscience.iop.org/article/10.1088/2516-1091/ac6b96/pdf
+Bach, F. R., & Jordan, M. I. (2005). A probabilistic interpretation of canonical correlation analysis. University of California, Berkeley.
+Ghahramani, Z., & Hinton, G. E. (1996). The EM algorithm for mixtures of factor analyzers. Technical Report CRG-TR-96-1, University of Toronto.
+Kingma, D. P., & Welling, M. (2013). Auto-Encoding Variational Bayes. Proceedings of the International Conference on Machine Learning.
+Rubin, D. B., & Thayer, D. T. (1982). EM algorithms for ML factor analysis. Psychometrika, 47(1), 69-76. https://doi.org/10.1007/BF02293894
+Williams, C. K. I., & Rasmussen, C. E. (2006). Gaussian processes for machine learning. MIT Press.
+
