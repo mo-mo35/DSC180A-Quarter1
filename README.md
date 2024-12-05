@@ -2,7 +2,8 @@ Our repo contains 4 notebooks, 1 contains the generation of spike trains under m
 
 To run the project simply run the following command "pip install -r requirements.txt" from the root directory of the project and then run all cells of the notebook. 
 
-References
+References:
+
 Alessio P. Buccino, et al. (2022). Progress in Biomed. Eng., 4(022005). https://iopscience.iop.org/article/10.1088/2516-1091/ac6b96/pdf
 
 Bach, F. R., & Jordan, M. I. (2005). A probabilistic interpretation of canonical correlation analysis. University of California, Berkeley.
